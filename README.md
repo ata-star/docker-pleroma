@@ -38,7 +38,8 @@ Make sure your PostgreSQL parameters are ok.
 
 
 Run:
-```
+```sh
+cd docker-pleroma #if not already in that folder
 sh setup.sh
 ```
 
