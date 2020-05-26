@@ -68,6 +68,11 @@ Check if everything went well with:
 docker logs -f pleroma_web
 ```
 
+Add an Admin:
+```sh
+docker-compose run --rm web mix pleroma.user new admin your@emailaddress.com --admin
+```
+
 You can now setup a Nginx reverse proxy in a container or on your host by using the [example Nginx config](https://git.pleroma.social/pleroma/pleroma/blob/develop/installation/pleroma.nginx).
 
 ### Update
