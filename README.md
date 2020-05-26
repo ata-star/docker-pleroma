@@ -1,9 +1,7 @@
 # Pleroma
 
 [Pleroma](https://pleroma.social/) is a federated social networking platform, compatible with GNU social and other OStatus implementations. It is free software licensed under the AGPLv3.
-
 It actually consists of two components: a backend, named simply Pleroma, and a user-facing frontend, named Pleroma-FE.
-
 Its main advantages are its lightness and speed.
 
 ## Features
@@ -55,8 +53,6 @@ You will need to build the image again, to pick up your updated `secret.exs` fil
 
 ```
 docker-compose build
-# or
-docker build -t pleroma .
 ```
 
 You can now launch your instance:
